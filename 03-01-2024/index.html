@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #background {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #92278f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #longRec {
+        width: 30px;
+        height: 150px;
+        margin-right: 60px;
+        background: #fff579;
+        box-shadow: 60px 0px #fff579, 120px 0px #fff579, -60px 0px #fff579;
+        position: absolute;
+      }
+      #shortRec {
+        width: 30px;
+        height: 30px;
+        background: #fff579;
+        box-shadow: 60px -30px #fff579, -60px 30px #fff579;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background">
+      <div id="longRec"></div>
+      <div id="shortRec"></div>
+    </div>
+  </body>
+</html>
